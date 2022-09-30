@@ -1,0 +1,67 @@
+.backgroundimg{
+	background-image: url(./assets/background-image1.png);
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#cricpro{
+	padding: 5px;
+	margin-left: 800px;
+	border: 0px;
+}
+#icc{
+	padding: 5px;
+	margin-left: 30px;
+	border: 0px;
+	font-size: 50px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+}
+#text{
+	padding: 0px;
+	margin-left: 35px;
+	border: 0px;
+	font-size: 25px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	color:grey;
+}
+.TableStyle{
+	width: 800px;
+	background-color: white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	border-collapse: collapse ;
+}
+
+.TableStyle th{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: red;
+	color: white;
+	font-size: 13px;
+}
+.TableStyle td{
+	padding: 8px;
+}
+.TableStyle tr:hover{background-color:#ddd;}
+.TableStyle tr:nth-child(even){background-color:black;}
+
+
+
+
+
+
+footer
+{
+    display:flex;
+    flex-direction: row;
+    align-content: flex-end;
+	position: relative;
+	top: 750px;
+	margin-left: 80px;
+	font-size: 18px;
+	font-family: Nunito Sans;
+    font-style: normal;
+    
+}
